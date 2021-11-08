@@ -1,0 +1,217 @@
+/* style.css */
+body {
+  font-family: Overpass;
+  color: #404042;
+  font-size: 22px;
+}
+
+.header {
+  text-align: center;
+   padding: 4px 1px;
+  background: hotpink;
+  color: white;
+  font-size: 28px;
+}
+
+h1, h2, h3 {
+  font-family:  Chivo;
+}
+
+
+h2 {
+  font-size: 27px;
+}
+
+p {
+  color: grey;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+
+.topnav {
+  background-color: hotpink;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+.container {
+  width: 800px;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+#banner{
+  background-image: url(Imagenes/Aliada-blog.png);
+  opacity: 0.9;
+  background-background-size: cover;
+  background-position: center;
+  height:  150px;
+  padding: 100px;
+  text-align: center; 
+}
+
+#banner h1 {
+  color: hotpink; top: -75px;
+  outline-color: white;
+  font-size: 78px;
+  text-shadow: rgba(0,0,0,0.1);
+  position: relative;
+  margin: 0;
+}
+
+#banner p {
+  color: white;
+  font-size: 34px;
+  padding-top: 45px;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px #CFD8D7;
+  font-weight: bold;
+}
+
+
+.button-blue {
+  background-color: #909CC2;
+  color: white;
+  padding: 18px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #hotpink;
+  color: darkslategrey;
+}
+
+
+.CARD {
+  background: #E6C0E9;
+  shape-outside:  circle;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 50%; 
+  width: 190px;
+  text-align: center;
+  padding: 18px;
+}
+
+.CARD img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit:cover;
+}
+.CARD h2 {
+  color: hotpink;
+}
+
+.CARD h3 {
+  margin-bottom: 0;
+  color:  #404042;
+}
+
+.CARD h3:hover {
+  color: white;
+  text-decoration:  underline;
+}
+
+.all-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.CARD:hover {
+  color: white;
+  background-color: hotpink;
+}
+
+  .all-text-boxes {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 14px
+}
+
+
+.TEXTBOX {
+  background: white;
+  width: 235px;
+  align-content: center;
+  text-align: center;
+}
+
+
+.TEXTBOX h2{
+  font-size: 34px;
+  color: grey;
+}
+
+.TEXTBOX p {
+  font-size 20px
+}
+
+#footer p {
+  color:white;
+  z-index: 7;
+}
+
+#footer {
+  background: #909CC2;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
